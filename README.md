@@ -88,6 +88,3 @@ If you use MIRAGE in your research, please cite:
       url={https://arxiv.org/abs/2508.18260}, 
 }
 ```
-
-**Paper:** [https://arxiv.org/abs/2508.18260](https://arxiv.org/abs/2508.18260)
-
