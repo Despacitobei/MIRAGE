@@ -3,6 +3,8 @@
 **Multi-chain Inference with Retrieval-Augmented Graph Exploration**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2508.18260-b31b1b.svg)](https://arxiv.org/abs/2508.18260)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![AAAI](https://img.shields.io/badge/AAAI-2026-33618F.svg)](https://aaai.org/)
 
 ## Overview
 
