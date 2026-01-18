@@ -65,7 +65,7 @@ python build_kg.py
 
 **Single Question:**
 ```bash
-python run_multiagent.py --mode single --question "What are the symptoms of diabetes?"
+python run_multiagent.py --mode single --question "Your medical question here."
 ```
 
 **Batch Processing:**
