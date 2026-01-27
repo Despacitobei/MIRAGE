@@ -12,7 +12,7 @@ from vllm import LLM
 from src.mirage.coordinator import MultiAgentCoordinator
 from config import get_config, update_config_from_args
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '1,2'
+# os.environ['CUDA_VISIBLE_DEVICES'] = '1,2'
 
 class EnhancedJSONEncoder(json.JSONEncoder):
     """JSON encoder with support for set serialization"""
@@ -61,7 +61,7 @@ def parse_args():
 
     parser.add_argument('--subset_num', type=int, default=-1, help="Number of samples to process (-1 for all)")
     parser.add_argument('--model_path', type=str, help="Model path")
-    parser.add_argument('--neo4j_uri', type=str, default="bolt://127.0.0.1:17687", help="Neo4j URI")
+    parser.add_argument('--neo4j_uri', type=str, help="Neo4j URI")
     parser.add_argument('--neo4j_user', type=str, default="neo4j", help="Neo4j username")
     parser.add_argument('--neo4j_password', type=str, help="Neo4j password")
     parser.add_argument('--max_sub_questions', type=int, default=4, help="Maximum sub-questions per question")
